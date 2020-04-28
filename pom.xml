@@ -39,19 +39,12 @@
   </dependencies>
 
   <distributionManagement>
-    <repository>
-      <id>release</id>
-      <name>Internal Releases</name>
-      <url>https://artifactory.billing.ru/artifactory/peterservice-
-        releases</url>
-    </repository>
-    <snapshotRepository>
-      <id>snapshots</id>
-      <name>Internal Snapshots</name>
-      <url>https://artifactory.billing.ru/artifactory/peterservice-
-        snapshots</url>
-    </snapshotRepository>
-  </distributionManagement>
+        <repository>
+            <id>release</id>
+            <name>Internal Releases</name>
+            <url>file://test</url>
+        </repository>
+    </distributionManagement>
 
   <build>
     <finalName>healthcheck_service</finalName>
