@@ -15,7 +15,7 @@
     - name: Pip docker
       pip: name=docker state=latest
     - name: Docker login
-      shell: 'docker login docker.com -u sdkdan -p {{password}}'
+      shell: 'docker login docker.com -u sdkdan -p ridebmx11'
     - name: See running containers
       shell: docker ps --filter name=tomcat -q
       register: run_list
