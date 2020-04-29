@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @org.springframework.stereotype.Controller
 public class Controller {
-//test
+//test11
     @RequestMapping(value="health/check", method = RequestMethod.GET)
     @ResponseBody
     public String check(@RequestParam(value="answerTo", required=false)
